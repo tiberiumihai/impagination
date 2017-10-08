@@ -1,3 +1,5 @@
+import "object.values.entries.getownpropertydescriptors";
+
 const { defineProperty, getOwnPropertyDescriptors } = Object;
 
 export default function cached(constructor) {
